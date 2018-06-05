@@ -1,4 +1,4 @@
-TallnWide: A Geo-Distributed PCA on Tall and Wide Big Data
+Fast, Scalable and Geo-Distributed PCA for Big Data Analytics
 =====
 
 
@@ -15,7 +15,7 @@ Steps to run TallnWide in a single Cluster (Amazon AWS EMR Cluster)
 9.	Run the following commands to execute TallnWide
 ```
 $ git clone https://github.com/TallnWide/Code.git
-$ cd TallnWide/TallnWide_Accum_Scheme/
+$ cd Code/TallnWide_Accum_Scheme/
 $ mvn clean package
 $ cp target/ PPCA-Tall-and-Wide-0.0.1-SNAPSHOT.jar stand_alone/
 $ cd stand_alone/
